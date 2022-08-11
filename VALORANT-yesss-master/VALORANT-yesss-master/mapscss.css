@@ -1,0 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Crete+Round);
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+@import url('http://fonts.cdnfonts.com/css/valorant');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+/* General document styles */
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Secular One', sans-serif;
+
+}
+
+h1 {
+    display: inline-block;
+    width: auto;
+    background-color: rgb(222, 31, 66);
+    color: white;
+    padding: 5px 15px;
+    margin-left: -30px;
+}
+
+.agentname{
+  padding-top: 3%;
+  color: white;
+  text-align: center;
+  font-family: 'VALORANT', sans-serif;
+  font-size: 100px;
+}
+	
+
+body {
+  background-color: rgba(15,24,34,255);
+}
+
+a {
+    color: rgb(180, 31, 66);
+    text-decoration: none;
+}
+.description{
+margin-top:20px;
+padding-bottom:5px;
+border: ridge #FD4556 16px;
+background-color: #FD4556;
+
+	
+}
+.agentdescription{
+	display: inline-block;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+	font-family: 'Secular One', sans-serif;
+  	font-size: 20px;
+	border-bottom: solid white 5px;
+	
+}
+.valimage {
+	background-image: url(https://static.wikia.nocookie.net/valorant/images/e/e7/Loading_Screen_Ascent.png/revision/latest?cb=20200607180020);
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: contain;
+	background-size: cover;
+	height:900px;
+	margin-top:-100px;
+}
+.logo {
+    display: inline-block;
+    font-family: 'VALORANT', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+	font-weight:bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.whiteclr{
+	color:white
+	
+}
+
+/* Nav styles */
+nav {
+    background-color: rgb(250, 68, 84);
+	font-size:25px;
+	font-family: 'VALORANT', sans-serif;
+	font-weight:lighter;
+	border-bottom: 5px white solid;
+
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav > ul > li:hover {
+    background-color: rgb(180, 31, 66);
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: white;
+}
+.title {
+  margin-left:30px;
+}
+
+.agents {
+  margin-top:10px;
+  border:2px solid red;
+  line-height: 50px;
+	
+}
+	/* agents modifers*/
+.phoenix{
+
+}
+
+.raze{
+	
+}
+
+.jett{
+	
+}
+
+
+/* Footer styles */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer > section {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.social {
+    font-size: 30px;
+}
+
